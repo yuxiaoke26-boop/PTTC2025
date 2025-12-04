@@ -12,7 +12,7 @@ const Login = () => {
     e.preventDefault();
     try {
       // 使用简写路径，通过 proxy 转发
-      const res = await axios.post('\${API_URL}/api/login', { username, password });
+      const res = await axios.post(`${API_URL}/api/login`, { username, password });
       
       const userData = res.data.user;
       

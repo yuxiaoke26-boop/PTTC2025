@@ -8,9 +8,9 @@ const AdminDashboard = () => {
 
   useEffect(() => {
     // 获取用户列表
-    axios.get('\${API_URL}/api/users').then(res => setUsers(res.data));
+    axios.get(`${API_URL}/api/users`).then(res => setUsers(res.data));
     // 获取报名列表
-    axios.get('\${API_URL}/api/applications').then(res => setApplications(res.data));
+    axios.get(`${API_URL}/api/applications`).then(res => setApplications(res.data));
   }, []);
 
   return (

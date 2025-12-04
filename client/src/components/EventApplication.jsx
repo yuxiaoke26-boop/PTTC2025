@@ -34,7 +34,7 @@ const EventApplication = () => {
     const category = events.find(e => e.name === selectedEvent).category;
 
     try {
-      await axios.post('\${API_URL}/api/apply', {
+      await axios.post(`${API_URL}/api/apply`, {
         username: user.username,
         eventName: selectedEvent,
         category: category

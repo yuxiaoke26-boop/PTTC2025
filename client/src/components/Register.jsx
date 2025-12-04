@@ -27,7 +27,7 @@ const Register = () => {
     }
 
     try {
-      await axios.post('\${API_URL}/api/register', formData);
+      await axios.post(`${API_URL}/api/register`, formData);
       alert('Registration successful!');
       window.location.href = '/login';
     } catch (error) {
