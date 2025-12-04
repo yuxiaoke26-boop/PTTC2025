@@ -24,7 +24,7 @@ function App() {
         <nav style={{ padding: '1rem', background: '#282c34', color: 'white', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
             <img src={logo} alt="PTTC Logo" style={{ height: '40px' }} /> {/* Logo 图片 */}
-            <span style={{ fontWeight: 'bold', fontSize: '1.2rem' }}>PTTC 2025</span>
+            <span style={{ fontWeight: 'bold', fontSize: '1.2rem' }}>PHG 2025</span>
           </div>
           <div>
             <Link to="/" style={{ color: 'white', margin: '0 10px', textDecoration: 'none' }}>HOME</Link>
