@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import API_URL from '../config';
 
 const EventApplication = () => {
   const navigate = useNavigate();
@@ -33,7 +34,7 @@ const EventApplication = () => {
     const category = events.find(e => e.name === selectedEvent).category;
 
     try {
-      await axios.post('/api/apply', {
+      await axios.post('\${API_URL}/api/apply', {
         username: user.username,
         eventName: selectedEvent,
         category: category

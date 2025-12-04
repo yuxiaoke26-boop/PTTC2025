@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom'; // 使用 React 路由跳转
+import API_URL from '../config';
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -11,7 +12,7 @@ const Login = () => {
     e.preventDefault();
     try {
       // 使用简写路径，通过 proxy 转发
-      const res = await axios.post('/api/login', { username, password });
+      const res = await axios.post('\${API_URL}/api/login', { username, password });
       
       const userData = res.data.user;
       
