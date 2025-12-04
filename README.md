@@ -1,11 +1,11 @@
-# PTTC 2025 - Paisley Table Tennis Championship
+# PHG 2025 - Paisley Table Tennis Championship
 
 ## 📖 Project Overview
-This web application is designed for the **Paisley Table Tennis Championship 2025**. It serves as a comprehensive platform for managing event registrations, viewing real-time scores, and administering participant data. The system integrates traditional Highland Games events alongside the new Table Tennis competition.
+This web application is designed specifically for the **Paisley Highlands Championship 2025**. It serves as a comprehensive platform for managing event registration, viewing live scores, and managing participant data. The system integrates traditional Scottish Highlands Games events with the newly added table tennis event. Hence, this year's featured theme is Paisley Table Tennis Championship 2025.
 
 ## 🚀 Live Demo
-- **Frontend (App):** [在此处粘贴你的 Vercel 网址, 例如 https://pttc-project.vercel.app]
-- **Backend (API):** [在此处粘贴你的 Render 网址, 例如 https://pttc-backend.onrender.com]
+- **Frontend (App):** https://pttc-2025.vercel.app/
+- **Backend (API):** https://pttc2025.onrender.com
 
 ## 🛠 Tech Stack (MERN)
 - **Frontend:** React.js, CSS Modules
